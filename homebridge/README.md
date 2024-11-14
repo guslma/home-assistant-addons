@@ -10,9 +10,21 @@ _Homebridge - HomeKit support for the impatient._
 
 ## About
 
-This Ubuntu Linux based Docker image allows you to run Nfarina's Homebridge on your home network which emulates the iOS HomeKit API.
+Homebridge is a lightweight Node.js server you can run on your home network that emulates the iOS HomeKit API. It supports Plugins, which are community-contributed modules that provide a basic bridge from HomeKit to various 3rd-party APIs provided by manufacturers of "smart home" devices.
 
-See https://hub.docker.com/r/homebridge/homebridge
+Since Siri supports devices added through HomeKit, this means that with Homebridge you can ask Siri to control devices that don't have any support for HomeKit at all. For instance, using just some of the available plugins, you can say:
+
+Siri, unlock the back door. [pictured to the right]
+
+Siri, open the garage door.
+
+Siri, turn on the coffee maker.
+
+Siri, turn on the living room lights.
+
+Siri, good morning!
+
+https://hub.docker.com/r/homebridge/homebridge
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
