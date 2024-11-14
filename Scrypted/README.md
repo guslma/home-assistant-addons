@@ -6,11 +6,11 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-_Scrypted_
+_Scrypted - can bridge most cameras to the three major home hubs_
 
 ## About
 
-Scrypted can bridge most cameras to the three major home hubs: HomeKit (including HomeKit Secure Video), Google Home, and Alexa. Scrypted streams are fast, low latency, and have rock solid reliability.
+HomeKit (including HomeKit Secure Video), Google Home, and Alexa. Scrypted streams are fast, low latency, and have rock solid reliability.
 
 Cameras: Unifi, Amcrest, Hikvision, ONVIF, RTSP, Ring, Arlo, Nest/Google, Tuya, Reolink, and more...
 
