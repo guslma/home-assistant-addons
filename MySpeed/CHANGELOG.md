@@ -1,1 +1,1 @@
-See https://github.com/homebridge/docker-homebridge/releases
+See https://github.com/gnmyt/myspeed/releases
