@@ -11,7 +11,7 @@ map:
 - path: /myspeed/data
   read_only: false
   type: addon_config
-name: myspeed
+name: MySpeed
 ports:
   5216/tcp: 5216
 ports_description:
