@@ -1,1 +1,1 @@
-See https://github.com/gnmyt/myspeed/releases
+See https://github.com/elestio-examples/uptime-kuma/releases
