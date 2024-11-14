@@ -24,6 +24,8 @@ _MySpeed - MySpeed is a speed test analysis software that records your internet 
 
 🗳️ Choose between Ookla, LibreSpeed and Cloudflare speed test servers
 
+https://hub.docker.com/r/germannewsmaker/myspeed
+
 [aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
