@@ -11,11 +11,17 @@ _MySpeed - MySpeed is a speed test analysis software that records your internet 
 ## About
 
 📊 MySpeed generates clear statistics on speed, ping, and more
+
 ⏰ MySpeed automates speed tests and allows you to set the time between tests using Cron expressions
+
 🗄️ Add multiple servers directly to a MySpeed instance
+
 🩺 Configure health checks to notify you via email, Signal, WhatsApp, or Telegram in case of errors or downtime
+
 📆 Test results can be stored for up to 30 days
+
 🔥 Support for Prometheus and Grafana
+
 🗳️ Choose between Ookla, LibreSpeed and Cloudflare speed test servers
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
