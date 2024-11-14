@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Homebridge
+# MySpeed Add-on: MySpeed
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -6,13 +6,17 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-_Homebridge - HomeKit support for the impatient._
+_MySpeed - MySpeed is a speed test analysis software that records your internet speed for up to 30 days._
 
 ## About
 
-This Ubuntu Linux based Docker image allows you to run Nfarina's Homebridge on your home network which emulates the iOS HomeKit API.
-
-See https://hub.docker.com/r/homebridge/homebridge
+📊 MySpeed generates clear statistics on speed, ping, and more
+⏰ MySpeed automates speed tests and allows you to set the time between tests using Cron expressions
+🗄️ Add multiple servers directly to a MySpeed instance
+🩺 Configure health checks to notify you via email, Signal, WhatsApp, or Telegram in case of errors or downtime
+📆 Test results can be stored for up to 30 days
+🔥 Support for Prometheus and Grafana
+🗳️ Choose between Ookla, LibreSpeed and Cloudflare speed test servers
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
