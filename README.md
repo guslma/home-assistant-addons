@@ -14,3 +14,6 @@ _Homebridge - HomeKit support for the impatient._
 
 _MySpeed - Is a speed test analysis._
 
+### [Scrypted](./Scrypted)
+
+_Scrypted - Can bridge most cameras to the three major home hubs_
