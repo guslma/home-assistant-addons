@@ -1,0 +1,23 @@
+arch:
+- armv7
+- amd64
+backup_exclude:
+- node_modules
+description: UpTime-Kuma is an open source monitoring tool. It enables you to monitor services over HTTP/S, TCP, DNS, and other protocols.
+host_network: true
+image: elestio/uptime-kuma
+init: false
+map:
+- path: /app/data
+  read_only: false
+  type: addon_config
+name: UpTime
+ports:
+  3001/tcp: 3001
+ports_description:
+  3001/tcp: UpTime
+slug: myspeed
+url: https://hub.docker.com/r/elestio/uptime-kuma
+version: 'latest'
+webui: http://[HOST]:[PORT:3001]
+
