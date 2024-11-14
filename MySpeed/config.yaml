@@ -1,33 +1,22 @@
-FROM node:18-alpine AS build
-RUN apk add --no-cache g++ make cmake python3 py3-setuptools
-
-WORKDIR /myspeed
-
-COPY ./client ./client
-COPY ./server ./server
-COPY ./package.json ./package.json
-
-RUN yarn install
-RUN cd client && yarn install --force
-RUN npm run build
-RUN mv /myspeed/client/build /myspeed
-
-FROM node:18-alpine
-
-RUN apk add --no-cache tzdata
-
-ENV NODE_ENV=production
-ENV TZ=Etc/UTC
-
-WORKDIR /myspeed
-
-COPY --from=build /myspeed/build /myspeed/build
-COPY --from=build /myspeed/server /myspeed/server
-COPY --from=build /myspeed/node_modules /myspeed/node_modules
-COPY --from=build /myspeed/package.json /myspeed/package.json
-
-VOLUME ["/myspeed/data"]
-
-EXPOSE 5216
-
-CMD ["node", "server"]
+arch:
+- armv7
+- amd64
+backup_exclude:
+- node_modules
+description: A speed test analysis software that shows your internet speed for up to 30 days
+host_network: true
+image: germannewsmaker/myspeed
+init: false
+map:
+- path: /myspeed
+  read_only: false
+  type: addon_config
+name: myspeed
+ports:
+  5173/tcp: 5173
+ports_description:
+  5173/tcp: MySpeed
+slug: myspeed
+url: https://hub.docker.com/r/germannewsmaker/myspeed
+version: 'Last'
+webui: http://[HOST]:[PORT:5173]
