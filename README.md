@@ -9,3 +9,8 @@ This repository contains the following add-ons:
 ### [Homebridge](./homebridge)
 
 _Homebridge - HomeKit support for the impatient._
+
+### [MySpeed](./MySpeed)
+
+_MySpeed - Is a speed test analysis._
+
