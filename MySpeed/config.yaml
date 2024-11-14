@@ -8,7 +8,7 @@ host_network: true
 image: germannewsmaker/myspeed
 init: false
 map:
-- path: /myspeed/server
+- path: /myspeed/data
   read_only: false
   type: addon_config
 name: myspeed
