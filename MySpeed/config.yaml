@@ -18,5 +18,5 @@ ports_description:
   5216/tcp: MySpeed
 slug: myspeed
 url: https://hub.docker.com/r/germannewsmaker/myspeed
-version: 'v1.0.9'
+version: '1.0.9'
 webui: http://[HOST]:[PORT:5216]
